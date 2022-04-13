@@ -2,7 +2,7 @@
 <img align="center" alt="architecture" src="./Resources/HLD.png"/><br>
 
 # Introduction
-This repository demonstrates an end-to-end pipeline for real-time Facial emotion recognition through full-stack development.
+This repository demonstrates an end-to-end pipeline for real-time Facial emotion recognition application through full-stack development.
 The frontend is developed in react.js and the backend is developed in FastAPI. The emotion prediction model is built with Tensorflow Keras, and for real-time face detection with animation on the frontend, Tensorflow.js have been used.
 
 # Demo video
@@ -70,3 +70,4 @@ The bounding box around the face is detected using a TensorflowJS model.
 # Scopes of Improvement
 1. Custom light and efficient ML model with higher accuracy could provide us with better results.
 2. There is a lag between the instant frame and ml model prediction, this issue could be solved by running it over a system with better computing power. My project ran on a system with 4GM RAM.
+3. Making a disgusted face in the demo video was a difficult task for me, so the Disgusted emotion bar barely spiked any time. The reason could also be that the model was not trained with enough examples from the "disgust" class.
